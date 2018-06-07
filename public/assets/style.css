@@ -1,0 +1,87 @@
+body{
+    background: url('http://digitaldimensions.co/wp-content/uploads/2018/01/desk-view-from-above-modern-office-table-background-with-table-smart-phone-notepad-and-coffee-cup-view-desk-view-top.jpg');
+    background-size: cover;
+    font-family: tahoma;
+    color: #989898;
+    opacity: 0.7;
+}
+p{
+  font-family: 'Suez One';
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  color: black;
+}
+#todo-table{
+    position: relative;
+    width: 60%;
+    background: #376F78;
+    margin-left: 260px;
+    margin-top: -70px;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 90%;
+}
+a:link {
+    font-size: 20px;
+    font-family: tahoma;
+    text-align: center;
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+#todo-table form:after{
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+input[type="text"]{
+    width: 70%;
+    padding: 20px;
+    background:#fff;
+    border: 0;
+    float: left;
+    font-size: 20px;
+    color: #000000;
+}
+
+button{
+    padding: 20px;
+    width: 30%;
+    float: left;
+    background: #23282e;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: black;
+}
+
+li:hover{
+    text-decoration: line-through;
+    background: rgba(0,0,0,0.2);
+}
+
+h1{
+    background: url(/assets/logo.png) no-repeat center;
+    margin-bottom: 0;
+    text-indent: -10000px;
+}
