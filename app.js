@@ -3,14 +3,14 @@ var app = express();
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds149960.mlab.com:49960/todo'); // available on your mlab account
+mongoose.connect('mongodb://chahak:chahak810@ds149960.mlab.com:49960/todo');
 
 var todoSchema = new mongoose.Schema({
   item: String
 });
 
 var todo = mongoose.model('todo',todoSchema);
-/*var item1 = todo({item: 'kissi ks'}).save(function(err){
+/*var item1 = todo({item: 'do yoga'}).save(function(err){
   if(err) throw err;
   console.log('Item saved');
 });*/
